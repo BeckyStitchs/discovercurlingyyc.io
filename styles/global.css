@@ -1,0 +1,29 @@
+/* Sections */
+.container {
+  margin: 3rem auto;
+  max-width: 100rem;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+/* Header Section */
+.navigator-container {
+  background-color: #FFFAF4;
+  padding: 0.1vw 0 0.1vw 0;
+}
+
+/* Hero Section */
+.hero-container {
+  color: #ffffff;
+}
+
+/* Content Section */
+.content-container{
+  margin-bottom: 5vw;
+}
+
+/* Register Page */
+.checkbox-container{
+  padding: 0;
+  text-align: center;
+}

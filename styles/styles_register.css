@@ -1,0 +1,620 @@
+.navigator-content img{
+  padding: 1.5vw 0 1vw 0;
+  margin: 0;
+  position: absolute;
+  width: 25vw;
+  left: 1%;
+}
+
+.navigator-content nav{
+  padding: 2.5vw 1.5vw;
+  margin: 0;
+}
+
+.navigator-content nav a:hover{
+  background-color: #090959;
+  color: #FFFAF4;
+  padding-left: 1%;
+}
+
+.navigator-content nav a i{
+  padding-right: 1%;
+}
+
+.header-container{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.header-container img {
+  width: 100%;
+}
+
+@media (min-width: 210px) and (max-width: 768px) {
+
+  .navigator-content nav{
+    text-align: right;
+    padding: 1vw;
+    margin: 2vw 0 3vw;
+  }
+
+  .navigator-content img{
+    padding: 1vw;
+    margin: 0;
+  }
+
+  .navigator-content nav a{
+    padding: 1%;
+    color: #090959;
+    font-size: 2vw;
+  }
+
+  .registration-container{
+    padding: 2vw;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .registration-container h1{
+    padding: 1vw 1vw 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 5vw;
+  }
+
+  .registration-container h2{
+    padding: 1vw 1vw 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 3vw;
+  }
+
+  .registration-container label{
+    padding: 1vw 0 1.5vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 3vw;
+  }
+
+  .registration-container input{
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    border-color: #090959;
+    font-family: 'Palanquin';
+    color: #090959;
+  }
+
+  .checkbox-container span{
+    padding: 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 2.7vw;
+  }
+
+  .registration-container button{
+    padding: 1vw;
+    margin: 5vw 30vw 0 30vw;
+    background-color: #FFCC00;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+  }
+
+  .registration-container button::after{
+    padding: 1vw;
+    margin: 5vw 30vw 0 30vw;
+    background-color: #090959;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: #ffffff;
+  }
+
+
+  .signin-container p{
+    padding: 0;
+    margin: 0 0 10vw 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .footer-container{
+    padding: 3vw 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-container h2{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 2vw;
+    justify-content: center;
+  }
+
+  .footer-logo img {
+    width: 30%;
+  }
+
+  .footer-information p{
+    padding: 0 15vw 5vw 15vw;
+    margin-bottom: 2vw;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 2.5vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .footer-link ul{
+    padding: 2vw 0 3vw 5vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: left;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .footer-link ul li a{
+    padding: 0 5vw 0 0;
+    color: #090959;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    justify-content: center;
+  }  
+
+  .contact-link ul{
+    padding: 0 6vw 0 6vw;
+    margin: 2vw 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .contact-link ul li img{
+    padding: 1vw 0.5vw 1vw;
+    margin: 0;
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0.5vw;
+    margin: 0;
+  }
+    
+  .navigator-content nav{
+    text-align: right;
+    padding: 2vw 1.5vw;
+  }
+  
+  .navigator-content nav a{
+    color: #090959;
+    font-size: 1.5vw;
+    padding: 1vw;
+  }
+
+  .registration-container{
+    padding: 2vw;
+    margin: 1vw 8vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .registration-container h1{
+    padding: 1vw 1vw 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 4vw;
+  }
+
+  .registration-container h2{
+    padding: 1vw 1vw 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 2.5vw;
+  }
+
+  .registration-container label{
+    padding: 1vw 0 1.5vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 2.5vw;
+  }
+
+  .registration-container input{
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    border-color: #090959;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 2vw;
+  }
+  
+  .checkbox-container span{
+    padding: 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 2vw;
+  }
+
+  .registration-container button{
+    padding: 1vw;
+    margin: 3vw 27vw 0.5vw 27vw;
+    background-color: #FFCC00;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+    font-size: 2.5vw;
+  }
+
+  .registration-container button::after{
+    padding: 1vw;
+    margin: 3vw 27vw 0.5vw 27vw;
+    background-color: #090959;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: #ffffff;
+    font-size: 2.5vw;
+  }
+
+  .signin-container p{
+    padding: 0;
+    margin: 0 0 10vw 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .footer-container{
+    padding: 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h2{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2.5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 4vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 60%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 1.3vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1.5vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0.5vw 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 0.5vw 0 0.5vw;
+    margin: 0 0 0 2.5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 70%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0;
+    margin: 0;
+    width: 17%;
+  }
+
+  .navigator-content nav{
+    text-align: right;
+    margin: 1vw 0 1vw;
+    padding: 1vw 2vw 1vw;
+  }
+
+  .navigator-content nav a{
+    padding: 0 1vw 0 2vw;
+    color: #090959;
+    font-size: 1.1vw;
+  }
+
+  .registration-container{
+    padding: 2vw;
+    margin: 1vw 25vw 5vw 25vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .registration-container h1{
+    padding: 1vw 1vw 0 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 3vw;
+  }
+
+  .registration-container h2{
+    padding: 1vw 1vw 1vw 0;
+    margin-bottom: 3vw;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 1.8vw;
+  }
+
+  .registration-container label{
+    padding: 1vw 0 1.5vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+    font-size: 1.5vw;
+  }
+
+  .registration-container input{
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    border-color: #090959;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 1.2vw;
+  }
+  
+  .checkbox-container span{
+    padding: 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 1.3vw;
+  }
+
+  .registration-container button{
+    padding: 1vw;
+    margin: 3vw 15vw 0 15vw;
+    background-color: #FFCC00;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+    font-size: 1.5vw;
+  }
+
+  .registration-container button::after{
+    padding: 1vw;
+    margin: 3vw 15vw 0 15vw;
+    background-color: #090959;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 1.5vw;
+  }
+
+  .signin-container p{
+    padding: 0;
+    margin: 0 0 10vw 0;
+    font-family: 'Palanquin';
+    color: #090959;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  .footer-container{
+    padding: 1vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h2{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 1.5vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 40%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 1vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 2vw 0 2vw;
+    margin: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 50%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 75%;
+  }
+}

@@ -1,0 +1,602 @@
+.navigator-content img{
+  padding: 1.5vw 0 1vw 0;
+  margin: 0;
+  position: absolute;
+  width: 25vw;
+  left: 1%;
+}
+
+.navigator-content nav{
+  padding: 2.5vw 1.5vw;
+  margin: 0;
+}
+
+.navigator-content nav a:hover{
+  background-color: #090959;
+  color: #FFFAF4;
+  padding-left: 1%;
+}
+
+.navigator-content nav a i{
+  padding-right: 1%;
+}
+
+.header-container{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.header-container img {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 0 0 4vw 6vw;
+  font-size: 3vw;
+  font-family: 'Palanquin Dark';
+  color: #090959;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 210px) and (max-width: 768px) {
+
+  .navigator-content nav{
+    text-align: right;
+    padding: 1vw;
+    margin: 2vw 0 3vw;
+  }
+
+  .navigator-content img{
+    padding: 1vw;
+    margin: 0;
+  }
+
+  .navigator-content nav a{
+    padding: 1%;
+    color: #090959;
+    font-size: 2vw;
+  }
+
+  .cards-container{
+    padding: 0;
+    margin: 2vw 2vw 10vw 2vw;
+  }
+
+  .cards-container h1{
+    margin-top: 8vw;
+    font-size: 22px;
+  }
+
+  .cards-container input{
+    font-size: 2.5vw;
+    font-family: 'Palanquin';
+  }
+
+  #searchInput{
+    padding: 2vw 10vw 2vw 10vw;
+    margin-left: 5vw;
+    border-radius: 50px;
+    border-color: #090959;
+    color: #090959;
+  }
+
+  .cards-container button{
+    padding: 1vw 6vw 1vw 6vw;
+    margin-left: 2vw;
+    background-color: #fc0;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+  }
+  
+  .cards-container button:hover{
+    padding: 1vw 6vw 1vw 6vw;
+    margin-left: 2vw;
+    background-color: #090959;
+    color: #FFFAF4;
+    border-radius: 50px;
+  }
+
+  .cards-content {
+    margin: 5vw 0 5vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .card {
+    padding: 1vw 1vw 2vw 1vw;
+    margin: 0;
+    width: auto;
+    background: #f1f9ff;
+    border: 5px solid #f1f9ff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .card p{
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .footer-container{
+    padding: 3vw 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 2vw;
+    justify-content: center;
+  }
+
+  .footer-logo img {
+    width: 30%;
+  }
+
+  .footer-information p{
+    padding: 0 15vw 5vw 15vw;
+    margin-bottom: 2vw;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 2.5vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .footer-link ul{
+    padding: 2vw 0 3vw 5vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: left;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .footer-link ul li a{
+    padding: 0 5vw 0 0;
+    color: #090959;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    justify-content: center;
+  }  
+
+  .contact-link ul{
+    padding: 0 6vw 0 6vw;
+    margin: 2vw 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .contact-link ul li img{
+    padding: 1vw 0.5vw 1vw;
+    margin: 0;
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0.5vw;
+    margin: 0;
+  }
+    
+  .navigator-content nav{
+    padding: 2vw 1.5vw;
+    text-align: right;
+  }
+  
+  .navigator-content nav a{
+    padding: 1vw;
+    color: #090959;
+    font-size: 1.5vw;
+  }
+
+  .cards-container{
+    margin: 2vw 0 10vw 0;
+  }
+
+  .cards-container input{
+    font-size: 2vw;
+    font-family: 'Palanquin';
+  }
+
+  #searchInput{
+    padding: 1vw 5vw 1vw 5vw;
+    margin-left: 5vw;
+    border-radius: 50px;
+    border-color: #090959;
+    color: #090959;
+  }
+
+  .cards-container button{
+    padding: 1vw 6vw 1vw 6vw;
+    margin-left: 2vw;
+    background-color: #fc0;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+    font-family: 'Palanquin';
+  }
+  
+  .cards-container button:hover{
+    padding: 1vw 6vw 1vw 6vw;
+    margin-left: 2vw;
+    background-color: #090959;
+    color: #FFFAF4;
+    border-radius: 50px;
+  }
+
+  .cards-content {
+    padding: 0.5vw;
+    margin: 5vw 0 5vw 0;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .card {
+    padding: 1vw 1vw 2vw 1vw;
+    margin: 0;
+    width: auto;
+    background: #f1f9ff;
+    border: 3px solid #f1f9ff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .card p{
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .footer-container{
+    padding: 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2.5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 4vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 60%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Palanquin';
+    font-size: 1.3vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1.5vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0.5vw 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 0.5vw 0 0.5vw;
+    margin: 0 0 0 2.5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 70%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0;
+    margin: 0;
+    width: 17%;
+  }
+
+  .navigator-content nav{
+    text-align: right;
+    margin: 1vw 0 1vw;
+    padding: 1vw 2vw 1vw;
+  }
+
+  .navigator-content nav a{
+    padding: 0 1vw 0 2vw;
+    color: #090959;
+    font-size: 1.1vw;
+  }
+
+  label {
+    display: block;
+    margin: 0 0 2vw 2vw;
+    font-size: 2vw;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  #searchInput{
+    padding: 1vw 5vw 1vw 5vw;
+    margin-left: 2vw;
+    border-radius: 50px;
+    border-color: #090959;
+    color: #090959;
+  }
+
+  .cards-container{
+    margin: 2vw 0 5vw 0;
+  }
+
+  .cards-container h1{
+    margin-top: 8vw;
+    font-size: 2vw;
+  }
+
+  .cards-container input{
+    font-size: 1.2vw;
+    padding: 1vw;
+  }
+
+  .cards-container button{
+    padding: 0.6vw 3vw 0.6vw 3vw;
+    margin-left: 2vw;
+    background-color: #fc0;
+    color: #090959;
+    border-radius: 50px;
+    border-color: #ffffff;
+    font-size: 1vw;
+  }
+  
+  .cards-container button:hover{
+    padding: 0.6vw 3vw 0.6vw 3vw;
+    margin-left: 2vw;
+    background-color: #090959;
+    color: #FFFAF4;
+    border-radius: 50px;
+  }
+
+  .cards-content {
+    padding: 1vw;
+    margin: 5vw 0 5vw 0;
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .card {
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 0;
+    width: auto;
+    background: #f1f9ff;
+    border: 0.5px solid #f1f9ff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .card p{
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: 'Palanquin Dark';
+    color: #090959;
+  }
+
+  .footer-container{
+    padding: 1vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 1.5vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 40%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 1vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 2vw 0 2vw;
+    margin: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 50%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 75%;
+  }
+}

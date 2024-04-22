@@ -1,0 +1,696 @@
+.navigator-content img{
+  padding: 1.5vw 0 1vw 0;
+  margin: 0;
+  position: absolute;
+  width: 25vw;
+  left: 1%;
+}
+
+.navigator-content nav{
+  padding: 2.5vw 1.5vw;
+  margin: 0;
+}
+
+.navigator-content nav a:hover{
+  background-color: #090959;
+  color: #FFFAF4;
+  padding-left: 1%;
+}
+
+.navigator-content nav a i{
+  padding-right: 1%;
+}
+
+.hero-content {
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  transform: translate(10%, -250%);
+}
+
+.hero-content h1{
+  padding: 0 0 5vw 0;
+  margin: 0;
+  color: #090959;
+  font-family: 'Palanquin Dark';
+  font-size: 4vw;
+  text-align: left;
+}
+
+.hero-content h2{
+  padding: 0;
+  margin: 0;
+  color: #090959;
+  font-family: 'Palanquin';
+  font-size: 2vw;
+  text-align: left;
+}
+
+.hero-container img {
+  width: 100%;
+}
+
+.objective-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 2vw 1vw 5vw 1vw;
+  padding: 3vw;
+  color: #090959;
+}
+
+.objective {
+  width: calc(33.333% - 16px);
+  border: none;
+  background-color: #FFFAF4;
+  padding: 1vw;
+  box-shadow: 0 2px 4px rgba(84, 64, 23, 0.31);
+}
+
+.objective img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-title:before, .main-title:after {
+  content: "";
+  display: block;
+  margin: 0 0.2rem;
+  flex: 1;
+  border-bottom: 1px solid #090959;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked + .item .title {
+  color: #fff;
+  border-color: #090959;
+  background-color: #090959;
+}
+
+input[type=checkbox]:checked + .item .title:after {
+  transform: rotate(180deg);
+}
+
+input[type=checkbox]:checked + .item .accordion-content {
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s, opacity 0.7s;
+}
+
+.item {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  padding: 2vw 6vw 2vw 6vw;
+  border-radius: 10vw;
+  color: #090959;
+  border: 1px solid;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title:after {
+  content: "▼";
+  display: inline-block;
+  font-size: 12px;
+}
+
+.accordion-content {
+  width: 100%;
+  margin: 0;
+  padding: 1vw;
+  line-height: 0.7;
+  color: #090959;
+  border: 1px solid;
+  border-width: 0 1px;
+  height: 0;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+@media (min-width: 210px) and (max-width: 768px) {
+
+  .navigator-content nav{
+    text-align: right;
+    padding: 1vw;
+    margin: 2vw 0 3vw;
+  }
+
+  .navigator-content img{
+    padding: 1vw;
+    margin: 0;
+  }
+
+  .navigator-content nav a{
+    color: #090959;
+    font-size: 2vw;
+    padding: 1%;
+  }
+
+  .objective-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 1vw 5vw 1vw;
+    padding: 3vw;
+  }
+
+  .objective-container h1{
+    font-family: 'Palanquin Dark';
+    font-size: 6vw;
+  }
+
+  .objective-container h2{
+    padding: 0 2vw;
+    margin: 4vw 0 3vw 4vw;
+    font-family: 'Palanquin';
+    font-size: 4vw;
+  }
+
+  .objective {
+    width: 100%;
+  }
+
+  .objective-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .objective-content p {
+    padding: 1vw 3vw 1vw 3vw;
+    font-size: 3vw;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 3vw;
+  }
+
+  .accordion-container {
+    width: 100%;
+    padding: 5vw 1vw 0;
+    margin-bottom: 5vw;
+  }
+
+  .main-title {
+    padding-left: 2vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    font-family: 'Palanquin Dark';
+    font-size: 6vw;
+    font-weight: bold;
+    color: #090959;
+    display: flex;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 3vw;
+  }
+
+  .accordion-content p{
+    padding: 0 5vw 0 5vw;
+    font-size: 3vw;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .footer-container{
+    padding: 3vw 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 2vw;
+    justify-content: center;
+  }
+
+  .footer-logo img {
+    width: 30%;
+  }
+
+  .footer-information p{
+    padding: 0 15vw 5vw 15vw;
+    margin-bottom: 2vw;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 2.5vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .footer-link ul{
+    padding: 2vw 0 3vw 5vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: left;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .footer-link ul li a{
+    padding: 0 5vw 0 0;
+    color: #090959;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    justify-content: center;
+  }  
+
+  .contact-link ul{
+    padding: 0 5vw 0 5vw;
+    margin: 2vw 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .contact-link ul li img{
+    padding: 1vw 0.5vw 1vw;
+    margin: 0;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0.5vw;
+    margin: 0;
+  }
+  
+  .navigator-content nav{
+    text-align: right;
+    padding: 2vw 1.5vw;
+  }
+
+  .navigator-content nav a{
+    color: #090959;
+    font-size: 1.5vw;
+    padding: 1vw;
+  }
+
+  .objective-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 2vw 1vw 5vw 1vw;
+    padding: 3vw;
+  }
+
+  .objective-container h1{
+    font-family: 'Palanquin Dark';
+    font-size: 5vw;
+  }
+
+  .objective-container h2 {
+    padding: 0;
+    margin: 2vw 0;
+    font-family: 'Palanquin';
+    text-align: center;
+  }
+
+
+  .objective-content p {
+    padding: 0 2.5vw 0 2.5vw;
+    text-align: justify;
+    font-size: 1.5vw;
+    line-height: 1.3;
+  }
+
+  .objective-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding: 0;
+    gap: 2vw;
+  }
+
+  .accordion-container {
+    width: 90%;
+    padding-bottom: 4vw;
+    margin: 0 3vw;
+  }
+
+  .main-title {
+    padding: 1vw 0 1vw 2vw;
+    margin: 0 4vw 5vw 4vw;
+    text-align: center;
+    font-family: 'Palanquin Dark';
+    font-size: 4vw;
+    color: #090959;
+    display: flex;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 2vw;
+  }
+
+  .accordion-content p{
+    margin: 3vw 0 5vw 0;
+    padding: 0 5vw 0 5vw;
+    font-size: 2vw;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .footer-container{
+    padding: 2vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2.5vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 4vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 60%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 1.2vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1.5vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0.5vw 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 0.5vw 0 0.5vw;
+    margin: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 70%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .navigator-content img{
+    padding: 0;
+    margin: 0;
+    width: 17%;
+  }
+
+  .navigator-content nav{
+    text-align: right;
+    margin: 1vw 0 1vw;
+    padding: 1vw 2vw 1vw;
+  }
+
+  .navigator-content nav a{
+    padding: 0 1vw 0 2vw;
+    color: #090959;
+    font-size: 1.1vw;
+  }
+
+  .objective-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw 1vw 5vw 1vw;
+    padding: 1vw;
+  }
+
+  .objective-container h1{
+    padding: 2vw 0 2vw 0;
+    font-size: 2.5vw;
+  }
+
+  .objective-content {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-content: space-between;
+    gap: 3vw;
+  }
+
+  .objective{
+    width: fit-content;
+    text-align: center;
+  }
+
+  .objective-content h2{
+    padding: 2vw 0 0.5vw 0;
+    font-size: 1.5vw;
+  }
+
+  .objective-content p {
+    padding: 0 2vw 0 2vw;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.5;
+  }
+
+  .objective img{
+    width: max-content;
+  }
+
+  .accordion-container {
+    width: 90%;
+    padding-bottom: 4vw;
+    margin: 5vw 3vw 0 3vw;
+  }
+
+  .main-title {
+    padding-left: 2vw;
+    margin-bottom: 3vw;
+    text-align: center;
+    font-family: 'Palanquin Dark';
+    font-size: 3vw;
+    color: #090959;
+    display: flex;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 1.5vw;
+  }
+
+  .accordion-content p{
+    margin: 3vw 0 5vw 0;
+    padding: 0 5vw 0 5vw;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .footer-container{
+    padding: 1vw;
+    margin: 0;
+    background-color: #FFFAF4;;
+    color: #090959;
+    text-align: left;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(2, 25% 33.333%);
+    gap: 2vw;
+  }
+
+  .footer-container h1{
+    padding: 2vw 0 1vw 0;
+    margin: 0;
+    font-family: 'Palanquin Dark';
+    font-size: 2vw;
+  }
+
+  .footer-logo{
+    padding: 0;
+    margin: 1vw 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 60%;
+  }
+
+  .footer-information{
+    text-align: left;
+  }
+
+  .footer-information p{
+    padding: 0 6vw 0 0;
+    margin: 0 6vw 0 0;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Palanquin';
+    font-size: 1vw;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2, 80%);
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .footer-link{
+    text-align: center;
+  }
+
+  .footer-link ul{
+    padding: 0 0 0 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 1.2vw;
+  }
+
+  .footer-link ul li{
+    padding: 1vw 1vw 0.3vw 0;
+    text-align: left;
+  }
+
+  .footer-link ul li a{
+    color: #090959;
+    text-decoration: none;
+  }
+
+  .footer-link ul li a:hover{
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    color: #FFFAF4;
+    text-decoration: underline #FFFAF4;
+    background-color: #090959;
+  }
+
+  .contact-link {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-link ul{
+    padding: 0 1vw 0 1vw;
+    margin: 0 0 0 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    width: 70%;
+  }
+
+  .contact-link ul li img{
+    padding: 0.5vw;
+    margin: 0;
+    width: 100%;
+  }
+}
